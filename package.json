@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/diane-furlong/xterior/issues"
   },
-  "homepage": "https://github.com/diane-furlong/xterior#readme"
+  "homepage": "https://github.com/diane-furlong/xterior#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
