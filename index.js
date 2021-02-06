@@ -1,17 +1,17 @@
 //dependencies
-const express = require("express")
+// const express = require("express")
 const path = require("path")
 
 //set up express app
 
 const PORT = process.env.PORT || 5000
 
-//set up express app to handle data parsing
-express()
-    .use(express.static(path.join(__dirname, 'index.html')))
-    .set('views', path.join(__dirname, 'views'))
-    .set('view engine', 'ejs')
-    .get('/', (req, res) => res.render('index.html'))
+// //set up express app to handle data parsing
+// express()
+//     .use(express.static(path.join(__dirname, 'index.html')))
+//     .set('views', path.join(__dirname, 'views'))
+//     .set('view engine', 'ejs')
+//     .get('/', (req, res) => res.render('index.html'))
 
 //data
 
